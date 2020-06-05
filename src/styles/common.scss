@@ -1,0 +1,35 @@
+body {
+  position: relative;
+  box-sizing: border-box;
+  min-width: 320px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: $ff-sans;
+  font-size: 16px;
+  font-weight: $fw-normal;
+  color: $fc-main;
+  background-color: $bgc-main;
+  line-height: 1.2;
+}
+
+.wrapper {
+  position: relative;
+  z-index: 2;
+  max-width: 1170px;
+  width: 96%;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

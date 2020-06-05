@@ -1,0 +1,28 @@
+# Файлы и папки операционной системы
+.DS_Store
+Thumbs.db
+
+# Файлы редактора
+.idea
+*.sublime*
+.vscode
+
+# Вспомогательные файлы
+*.log*
+node_modules/
+reports/
+
+# Папка с собранными файлами проекта
+build/
+assets/
+demo/
+
+# Некритичные файлы
+src/fonts/
+src/img/
+src/local_modules/
+src/vendor/
+lib/
+
+# TODO
+TODO.md

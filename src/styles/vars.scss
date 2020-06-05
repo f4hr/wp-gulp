@@ -1,0 +1,30 @@
+/*
+phone-small: 375px
+phone-medium: 668px
+tablet-small: 768px
+tablet-medium: 1024px
+desktop-small: 1280px
+desktop-medium: 1440px
+desktop-large: 1680px
+*/
+/* phone */
+$ps-max: 374.98px;
+$ps: 375px;
+$pm-max: 479.98px;
+$pm: 480px;
+$pl-max: 667.98px;
+$pl: 668px;
+
+/* tablet */
+$ts-max: 767.98px;
+$ts: 768px;
+$tm-max: 1023.98px;
+$tm: 1024px;
+
+/* desktop */
+$ds-max: 1279.98px;
+$ds: 1280px;
+$dm-max: 1439.98px;
+$dm: 1440px;
+$dl-max: 1679.98px;
+$dl: 1680px;

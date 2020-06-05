@@ -1,0 +1,13 @@
+@media screen and (min-width: 1280px) {
+  .wp-full-overlay.expanded {
+    margin-left: 25%;
+  }
+
+  .wp-full-overlay-sidebar {
+    width: 25%;
+  }
+
+  .wp-full-overlay.collapsed .wp-full-overlay-sidebar {
+    margin-left: -25%;
+  }
+}

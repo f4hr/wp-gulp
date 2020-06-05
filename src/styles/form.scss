@@ -1,0 +1,19 @@
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 12px;
+  margin: 0;
+  border: none;
+  font-size: $fz-main;
+  color: inherit;
+  background-color: inherit;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+label {
+  display: block;
+}

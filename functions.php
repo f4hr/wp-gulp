@@ -1,4 +1,10 @@
 <?php
+
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 /**
  * Theme setup
  */
@@ -10,13 +16,11 @@ if ( ! function_exists( 'theme_setup' ) ) {
 }
 add_action( 'after_setup_theme', 'theme_setup' );
 
-
 /**
  * TGM
  */
 require_once get_template_directory() . '/tgmpa/class-tgm-plugin-activation.php';
 require_once get_template_directory() . '/tgmpa/tgm-plugins.php';
-
 
 /**
  * Enqueue assets
@@ -27,12 +31,6 @@ function load_assets() {
 	wp_deregister_script( 'jquery' );
 	wp_register_script( 'jquery', get_template_directory_uri() . '/assets/vendor/jquery/jquery.min.js' );
 	wp_enqueue_script( 'jquery' );
-	wp_enqueue_script( 'imask',
-		get_template_directory_uri() . '/assets/vendor/imask/imask.min.js',
-		array(),
-		'',
-		'in_footer'
-	);
 
 	wp_enqueue_script( 'main-js',
 		get_template_directory_uri() . '/assets/js/main.min.js',
@@ -53,7 +51,6 @@ function add_customizer_styles() {
 	wp_enqueue_style( 'customizer-css', get_template_directory_uri() . '/assets/css/customizer.css', null );
 }
 add_action( 'admin_enqueue_scripts', 'add_customizer_styles', 99 );
-
 
 /**
  * Кастомные посты

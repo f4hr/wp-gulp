@@ -1,3 +1,5 @@
+import IMask from 'imask';
+
 /**
  * Input mask
  */
@@ -7,10 +9,3 @@ document.querySelectorAll('input[type="tel"]').forEach(el => {
     lazy: false
   });
 });
-
-/**
- * [helper] check is element on page
- */
-function isOnPage (elementID) {
-  return ($(elementID).length > 0);
-}

@@ -22,13 +22,6 @@ function tgm_register_required_plugins() {
 		),
 
 		array(
-			'name'     => 'Contact Form 7',
-			'slug'     => 'contact-form-7',
-			'version'  => '5.1.9',
-			'required' => true,
-		),
-
-		array(
 			'name'     => 'Cyr-To-Lat',
 			'slug'     => 'cyr2lat',
 			'version'  => '4.5.0',
@@ -74,6 +67,13 @@ function tgm_register_required_plugins() {
 		/**
 		 * Optional plugins
 		 */
+		array(
+			'name'     => 'Contact Form 7',
+			'slug'     => 'contact-form-7',
+			'version'  => '5.1.9',
+			'required' => false,
+		),
+
 		array(
 			'name'     => 'Classic Editor',
 			'slug'     => 'classic-editor',

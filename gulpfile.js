@@ -107,7 +107,7 @@ const script = function () {
   return gulp.src('src/js/main.js')
     .pipe(plumber())
     .pipe(webpack({
-      mode: process.env.NODE_ENV,
+      mode: 'production',
       output: {
         filename: '[name].min.js'
       },

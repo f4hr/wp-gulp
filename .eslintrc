@@ -5,9 +5,6 @@
     "jquery": true,
     "es6": true
   },
-  "globals": {
-    "IMask": "writable"
-  },
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module"
